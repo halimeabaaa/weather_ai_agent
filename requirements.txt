@@ -1,5 +1,7 @@
-python-dotenv>=1.0.0
-langchain==0.3.27
-langchain-google-genai>=0.0.5
-langchain-community>=0.0.14
-requests>=2.31.0
+    python-dotenv
+    langchain-google-genai
+    langchain
+    langchain-community
+    google-search-results
+    openweather-api-python
+    firebase-admin
