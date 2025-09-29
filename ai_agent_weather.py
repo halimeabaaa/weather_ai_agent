@@ -12,7 +12,7 @@ from langchain.memory import ConversationBufferMemory # YENİ: Hafıza için ekl
 load_dotenv()
 
 # --- 1. Model ve Araçların (Tools) Kurulumu ---
-llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", temperature=0.0)
+llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0.2)
 
 # --- 2. GÜVENLİ API ve YENİ ARAÇ ---
 # ÖNEMLİ NOT: Aşağıdaki fonksiyon, sunucu tarafında çalışacak bir API'yi simüle eder.
